@@ -1,0 +1,20 @@
+html,body{
+    max-width: 1440px;
+    min-width: 320px;
+    height: 100%;
+    width: 100%;
+}
+
+:root{
+    font-family:'Poppins', sans-serif;;
+    --brand-color: #d6fb00;
+    --main-color: #FFFFFF;
+    --font-title: 'Kanit', sans-serif;
+}
+
+body{background-color: #191919;}
+h1, h2, .email-tel{color: #FFFFFF;}
+h4{color: #dcdcdc;;}
+p{color: #8f8f8f;}
+a{color: #8f8f8f; text-decoration: none;}
+li{list-style-type: none;}

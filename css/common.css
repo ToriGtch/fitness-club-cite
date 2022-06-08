@@ -3,6 +3,7 @@ html,body{
     min-width: 320px;
     height: 100%;
     width: 100%;
+    font-size: 19px;
 }
 
 :root{
@@ -13,8 +14,9 @@ html,body{
 }
 
 body{background-color: #191919;}
-h1, h2, .email-tel{color: #FFFFFF;}
-h4{color: #dcdcdc;;}
+.color-text{color: #d6fb00;}
+h1, h2, h3, .email-tel{color: #FFFFFF;}
+h4{color: #dcdcdc;}
 p{color: #8f8f8f;}
 a{color: #8f8f8f; text-decoration: none;}
 li{list-style-type: none;}

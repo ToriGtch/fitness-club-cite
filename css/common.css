@@ -20,3 +20,5 @@ p{color: #8f8f8f;}
 a{color: #8f8f8f; text-decoration: none;}
 li{list-style-type: none; color: #8f8f8f;}
 .color-text{color: #d6fb00;}
+.pricing-card{background-color: rgba(143, 143, 143, 0.05);}
+.yellow-card{background-color: #d6fb00;}

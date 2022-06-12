@@ -14,9 +14,9 @@ html,body{
 }
 
 body{background-color: #191919;}
-.color-text{color: #d6fb00;}
 h1, h2, h3, .email-tel{color: #FFFFFF;}
 h4{color: #dcdcdc;}
 p{color: #8f8f8f;}
 a{color: #8f8f8f; text-decoration: none;}
-li{list-style-type: none;}
+li{list-style-type: none; color: #8f8f8f;}
+.color-text{color: #d6fb00;}

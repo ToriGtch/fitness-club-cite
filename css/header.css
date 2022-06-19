@@ -1,0 +1,31 @@
+.header-contacts {
+    padding: 10px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 10px;
+    justify-content: center;
+}
+
+.nav__logo-img {
+    height: 50px;
+}
+
+.nav__logo {
+    padding: 10px 25px;
+}
+
+.nav__menu-list {
+    padding: 10px 25px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2;
+}
+
+.nav__social-icons {
+    padding: 10px 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}

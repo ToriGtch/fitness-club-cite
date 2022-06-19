@@ -1,0 +1,30 @@
+.under-header__content {
+    padding: 130px 25px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 35px;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: bold;
+    font-family: var(--font-title);
+    line-height: 1;
+}
+
+.yellow-btn {
+    border-style: solid;
+    border-color: var(--brand-color);
+    background-color: var(--brand-color);
+    width: 170px;
+    height: 50px;
+    padding: 8px 30px;
+}
+
+.yellow-btn__link {
+    color: #191919;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--font-title);
+}

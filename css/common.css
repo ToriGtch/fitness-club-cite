@@ -1,9 +1,13 @@
-html,body{
+html, body{
     max-width: 1440px;
     min-width: 320px;
     height: 100%;
     width: 100%;
     font-size: 19px;
+}
+
+header, main, footer{
+    max-width: 1200px;
 }
 
 :root{
@@ -22,3 +26,8 @@ li{list-style-type: none; color: #8f8f8f;}
 .color-text{color: #d6fb00;}
 .pricing-card{background-color: rgba(143, 143, 143, 0.05);}
 .yellow-card{background-color: #d6fb00;}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}

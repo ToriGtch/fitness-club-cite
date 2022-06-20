@@ -1,0 +1,41 @@
+.personal-trainings__content{
+    padding: 80px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.personal-trainings__img{
+    max-width: 100%;
+    padding-bottom: 70px;
+}
+
+.personal-trainings__title{
+    font-family: var(--font-title);
+    font-size: 38px;
+    padding: 10px 0 10px;
+}
+
+.personal-trainings__article{
+    padding: 10px 0 10px;
+}
+
+.personal-trainings__pr{
+    padding: 10px 0 40px;
+    font-size: 17px;
+}
+
+.personal-trainings-btn{
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: transparent;
+    width: 205px;
+    height: 50px;
+    padding: 8px 30px;
+}
+
+.personal-trainings-btn__link{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -28,3 +28,68 @@ h1 {
     font-weight: bold;
     font-family: var(--font-title);
 }
+
+.yellow-btn:hover{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    cursor: pointer;
+}
+
+.classes{
+    padding: 90px 25px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.classes__text-title{
+    text-align: center;
+}
+
+.classes__text-article{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.classes__img{
+    max-width: 100%;
+}
+
+.brand-color-text{
+    padding: 20px 0;
+    font-family: var(--font-title);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.classes__text-pr{
+    padding-bottom: 50px;
+}
+
+.classes__btn{
+    display: flex;
+    justify-content: center;
+}
+
+.classes__yellow-btn{
+    border-style: solid;
+    border-color: var(--brand-color);
+    background-color: var(--brand-color);
+    width: 190px;
+    height: 50px;
+    padding: 8px 30px;
+}
+
+.classes__yellow-btn-link{
+    color: #191919;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--font-title); 
+}
+
+.classes__yellow-btn:hover{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    cursor: pointer;
+}
+

@@ -19,13 +19,14 @@ header, main, footer{
 
 body{background-color: #191919;}
 h1, h2, h3, .email-tel{color: #FFFFFF;}
+h2{line-height: 1.2;}
 h4{color: #dcdcdc;}
 p{color: #8f8f8f;}
 a{color: #8f8f8f; text-decoration: none;}
 li{list-style-type: none; color: #8f8f8f;}
 .color-text, .brand-color-text{color: #d6fb00;}
 .pricing-card{background-color: rgba(143, 143, 143, 0.05);}
-.yellow-card{background-color: #d6fb00;}
+.yellow-card{background-color: rgb(214, 251, 0);}
 
 *{
     box-sizing: border-box;
@@ -33,3 +34,4 @@ li{list-style-type: none; color: #8f8f8f;}
 }
 
 h2{font-family: var(--font-title); font-size: 38px;}
+img {max-width: 100%;}

@@ -1,31 +1,31 @@
-.personal-trainings__content{
+.personal-trainings__content {
     padding: 80px 25px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.personal-trainings__img{
+.personal-trainings__img {
     max-width: 100%;
     padding-bottom: 70px;
 }
 
-.personal-trainings__title{
+.personal-trainings__title {
     font-family: var(--font-title);
     font-size: 38px;
     padding: 10px 0 10px;
 }
 
-.personal-trainings__article{
+.personal-trainings__article {
     padding: 10px 0 10px;
 }
 
-.personal-trainings__pr{
+.personal-trainings__pr {
     padding: 10px 0 40px;
     font-size: 17px;
 }
 
-.personal-trainings-btn{
+.personal-trainings-btn {
     border-style: solid;
     border-color: #FFFFFF;
     background-color: transparent;
@@ -34,8 +34,109 @@
     padding: 8px 30px;
 }
 
-.personal-trainings-btn__link{
+.personal-trainings-btn__link {
     color: #FFFFFF;
     font-size: 15px;
     font-weight: bold;
+}
+
+.personal-trainings__item-content {
+    padding: 40px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.personal-trainings__item {
+    width: 50px;
+    margin: 10px 0;
+}
+
+.personal-trainings__item-title {
+    font-family: var(--font-title);
+    font-weight: bold;
+}
+
+.personal-trainings__item-pr {
+    font-size: 17px;
+    margin: 15px 0 30px 0;
+}
+
+.group-trainings {
+    padding: 80px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.group-trainings__img {
+    max-width: 100%;
+    margin: 70px 0 0 0;
+}
+
+.group-trainings-title {
+    font-family: var(--font-title);
+    font-size: 38px;
+    padding: 10px 0 10px;
+}
+
+.group-trainings-article {
+    padding: 10px 0 10px;
+}
+
+.group-trainings-pr {
+    padding: 10px 0 10px;
+    font-size: 17px;
+}
+
+.yellow-marker-list {
+    padding-left: 25px;
+}
+
+.yellow-marker-li {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px 0;
+    list-style-type: disc;
+}
+
+.yellow-marker-li::marker {
+    color: #d6fb00;
+}
+
+.first-class {
+    padding: 70px 25px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  
+}
+
+.first-class__back {
+    max-width: 100%;
+}
+
+.first-class-title {
+    padding: 10px 0;
+}
+
+.first-class-pr {
+    padding: 20px 0 20px;
+    font-size: 17px;
+}
+
+.first-class-pr2{
+    padding: 20px 0 20px;
+    font-size: 14px;  
+}
+
+.first-class-pr-tel{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.first-class-pr-tel2{
+    font-size: 14px;
+    text-align: center;
 }

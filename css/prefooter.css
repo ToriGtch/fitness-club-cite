@@ -1,0 +1,6 @@
+.prefooter-content {
+    padding: 70px 25px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

@@ -37,10 +37,51 @@
 font-size: 17px;
 }
 
+.footer-subscribe-pr {
+    font-size: 14px;
+    padding: 40px 0;
+}
+
+.footer-subscribe__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe__form{
+    margin: 5px 0;
+}
+
+.subscribe-email{
+    background: rgba(116, 116, 116, 0.05);
+    border-color: transparent;
+    width: 280px;
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subscribe-btn{
+    background: var(--brand-color);
+    border-color: transparent;
+    width: 280px;
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
 
 .footer-splitline{
     height: 1px; 
     width: 100%; 
     background-color: rgba(143, 143, 143, 0.35);
     margin-top: 50px;
+}
+
+.underfooter{
+    padding: 30px 0;
+}
+
+.underfooter-pr{
+    font-size: 14px;
 }
